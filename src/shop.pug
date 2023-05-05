@@ -6,7 +6,389 @@ html(lang="en")
         include pug/headTags
     body 
         include pug/layout/nav
-        include pug/layout/brands
 
+
+        //  Start Content 
+        .container.py-5
+            .row
+                .col-lg-3
+                    h1.h2.pb-4 Categories
+                    ul.list-unstyled.templatemo-accordion
+                        li.pb-3
+                            a.collapsed.d-flex.justify-content-between.h3.text-decoration-none(href="#")
+                                | Gender
+
+                                i.fa.fa-fw.fa-chevron-circle-down.mt-1
+                        
+                        li.pb-3
+                            a.collapsed.d-flex.justify-content-between.h3.text-decoration-none(href="#")
+                                | Sale
+
+                                i.pull-right.fa.fa-fw.fa-chevron-circle-down.mt-1
+                  
+                        li.pb-3
+                            a.collapsed.d-flex.justify-content-between.h3.text-decoration-none(href="#")
+                                | Product
+
+                                i.pull-right.fa.fa-fw.fa-chevron-circle-down.mt-1
+                  
+                .col-lg-9
+                    .row
+                        .col-md-6
+                            ul.list-inline.shop-top-menu.pb-3.pt-1
+                                li.list-inline-item
+                                    a.h3.text-dark.text-decoration-none.mr-3(href="#") All
+                                li.list-inline-item
+                                    a.h3.text-dark.text-decoration-none.mr-3(href="#") Men's
+                                li.list-inline-item
+                                    a.h3.text-dark.text-decoration-none(href="#") Women's
+                        .col-md-6.pb-4
+                            .d-flex
+                                select.form-control
+                                    option Featured
+                                    option A to Z
+                                    option Item
+                    .row
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                        .col-md-4
+                            .card.mb-4.product-wap.rounded-0
+                                .card.rounded-0
+                                    img.card-img.rounded-0.img-fluid(src="./img/shop_01.jpg")
+                                    .card-img-overlay.rounded-0.product-overlay.d-flex.align-items-center.justify-content-center
+                                        ul.list-unstyled
+                                            li
+                                                a.btn.btn-success.text-white(href="shop-single.html")
+                                                i.far.fa-heart
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.far.fa-eye
+                                            li
+                                                a.btn.btn-success.text-white.mt-2(href="shop-single.html")
+                                                i.fas.fa-cart-plus
+                                .card-body
+                                    a.h3.text-decoration-none(href="shop-single.html") Oupidatat non
+                                    ul.w-100.list-unstyled.d-flex.justify-content-between.mb-0
+                                        li M/L/X/XL
+                                        li.pt-2
+                                            span.product-color-dot.color-dot-red.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-blue.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-black.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-light.float-left.rounded-circle.ml-1
+                                            span.product-color-dot.color-dot-green.float-left.rounded-circle.ml-1
+                                    ul.list-unstyled.d-flex.justify-content-center.mb-1
+                                        li
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-warning.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                            i.text-muted.fa.fa-star
+                                    p.text-center.mb-0 $250.00
+                    .row
+                        ul.pagination.pagination-lg.justify-content-end
+                            li.page-item.disabled
+                                a.page-link.active.rounded-0.mr-3.shadow-sm.border-top-0.border-left-0(href="#", tabindex="-1") 1
+                            li.page-item
+                                a.page-link.rounded-0.mr-3.shadow-sm.border-top-0.border-left-0.text-dark(href="#") 2
+                            li.page-item
+                                a.page-link.rounded-0.shadow-sm.border-top-0.border-left-0.text-dark(href="#") 3
+            //  End Content 
+
+        include pug/layout/brands
         include pug/layout/footer
         include pug/layout/script
