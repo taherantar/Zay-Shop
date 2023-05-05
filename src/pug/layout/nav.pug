@@ -1,0 +1,66 @@
+//- -var items = [["home" , "index"], ["about"], ["contact"], ["products"] , ["test"]];
+//- -var itemsAr = [["الرئيسي"] , ["index-ar"], ["عنا"], ["تؤاصل معتا"], ["المنتاحات"], ["اختيار"] ]    
+
+//-     nav       
+//-         ul  
+//-             -if (pageLang === "en")
+//-                 each item in items
+//-                     li 
+//-                         a(href=(item[1] ? item[1] : item[0]) + ".html") #{item[0]} #{index}
+//-             -else
+//-                 each item , index in itemsAr 
+//-                     li  
+//-                         a(href=(item[1] ? item[1] : items[index] ) + "-ar.html" target="blank") #{item[0]}
+
+//  Start Top Nav 
+nav.navbar.navbar-expand-lg.bg-dark.navbar-light.d-none.d-lg-block#templatemo_nav_top
+  .container.text-light
+    .w-100.d-flex.justify-content-between
+      div
+        i.fa.fa-envelope.mx-2
+        a.navbar-sm-brand.text-light.text-decoration-none(href="mailto:info@company.com") info@company.com
+        i.fa.fa-phone.mx-2
+        a.navbar-sm-brand.text-light.text-decoration-none(href="tel:010-020-0340") 010-020-0340
+      div
+        a.text-light
+          i.fab.fa-facebook-f.fa-sm.fa-fw.me-2
+        a.text-light
+          i.fab.fa-instagram.fa-sm.fa-fw.me-2
+        a.text-light
+          i.fab.fa-twitter.fa-sm.fa-fw.me-2
+        a.text-light
+          i.fab.fa-linkedin.fa-sm.fa-fw
+//  Close Top Nav 
+//  Header 
+nav.navbar.navbar-expand-lg.navbar-light.shadow
+  .container.d-flex.justify-content-between.align-items-center
+    a.navbar-brand.text-success.logo.h1.align-self-center(href="index.html") Zay
+      
+    button.navbar-toggler.border-0(type="button", data-bs-toggle="collapse", data-bs-target="#templatemo_main_nav", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+      span.navbar-toggler-icon
+    .align-self-center.collapse.navbar-collapse.flex-fill.d-lg-flex.justify-content-lg-between#templatemo_main_nav
+      .flex-fill
+        ul.nav.navbar-nav.d-flex.justify-content-between.mx-lg-auto
+          li.nav-item
+            a.nav-link(href="index.html") Home
+          li.nav-item
+            a.nav-link(href="about.html") About
+          li.nav-item
+            a.nav-link(href="shop.html") Shop
+          li.nav-item
+            a.nav-link(href="contact.html") Contact
+      .navbar.align-self-center.d-flex
+        .d-lg-none.flex-sm-fill.mt-3.mb-4.col-7.col-sm-auto.pr-3
+          .input-group
+            input.form-control#inputMobileSearch(type="text", placeholder="Search ...")
+            .input-group-text
+              i.fa.fa-fw.fa-search
+        a.nav-icon.d-none.d-lg-inline(href="#", data-bs-toggle="modal", data-bs-target="#templatemo_search")
+          i.fa.fa-fw.fa-search.text-dark.mr-2
+        a.nav-icon.position-relative.text-decoration-none(href="#")
+          i.fa.fa-fw.fa-cart-arrow-down.text-dark.mr-1
+          span.position-absolute.top-0.left-100.translate-middle.badge.rounded-pill.bg-light.text-dark 7
+        a.nav-icon.position-relative.text-decoration-none(href="#")
+          i.fa.fa-fw.fa-user.text-dark.mr-3
+          span.position-absolute.top-0.left-100.translate-middle.badge.rounded-pill.bg-light.text-dark +99
+//  Close Header 

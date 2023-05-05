@@ -1,0 +1,54 @@
+-var Title = "Zay Shop";
+-var pageLang = "en" 
+doctype html 
+html(lang="en")
+    head
+        include pug/headTags
+    body 
+        include pug/layout/nav
+
+        section.bg-success.py-5
+                    .container
+                        .row.align-items-center.justify-content-between.py-5
+                            .col-md-8.text-white
+                                h1 About Us
+                                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                
+                            .col-md-4
+                                img(src="./img/about-hero.svg", alt="About Hero")
+        //  Start Section 
+        section.container.py-5
+                    .row.text-center.pt-5.pb-3
+                        .col-lg-6.m-auto
+                            h1 Our Services
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+                            
+                    .row
+                        .col-md-6.col-lg-3.pb-5
+                            .h-100.py-5.services-icon-wap.shadow
+                                .h1.text-success.text-center
+                                    i.fa.fa-truck.fa-lg
+                                h5.mt-4.text-center Delivery Services
+                        .col-md-6.col-lg-3.pb-5
+                            .h-100.py-5.services-icon-wap.shadow
+                                .h1.text-success.text-center
+                                    i.fas.fa-exchange-alt
+                                h5.mt-4.text-center Shipping & Return
+                        .col-md-6.col-lg-3.pb-5
+                            .h-100.py-5.services-icon-wap.shadow
+                                .h1.text-success.text-center
+                                    i.fa.fa-percent
+                                h5.mt-4.text-center Promotion
+                        .col-md-6.col-lg-3.pb-5
+                            .h-100.py-5.services-icon-wap.shadow
+                                .h1.text-success.text-center
+                                    i.fa.fa-user
+                                h5.mt-4.text-center 24 Hours Service
+        //  End Section 
+
+        include pug/layout/brands
+        include pug/layout/footer
+        include pug/layout/script
+
+
+//  Close Banner 
