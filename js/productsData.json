@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "imgUrl":"./img/shop_01.jpg",
+        "name": "Oupidatat non",
+        "price": 250
+    },
+    {
+        "id":2,
+        "imgUrl":"./img/shop_02.jpg",
+        "name": "Oupidatat non",
+        "price": 250
+    },
+    {
+        "id":3,
+        "imgUrl":"./img/shop_03.jpg",
+        "name": "Oupidatat non",
+        "price": 250
+    },
+    {
+        "id":4,
+        "imgUrl":"./img/shop_04.jpg",
+        "name": "Oupidatat non",
+        "price": 250
+    },
+    {
+        "id":5,
+        "imgUrl":"./img/shop_05.jpg",
+        "name": "Oupidatat non",
+        "price": 250
+    }
+]
