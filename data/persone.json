@@ -1,0 +1,72 @@
+[
+    {
+        "id": 291,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_01.jpg"
+        }
+    },
+    {
+        "id": 292,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_02.jpg"
+        }
+    },
+    {
+        "id": 292,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_04.jpg"
+        }
+    },
+    {
+        "id": 292,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_05.jpg"
+        }
+    },
+    {
+        "id": 292,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_06.jpg"
+        }
+    },
+    {
+        "id": 292,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_07.jpg"
+        }
+    },
+    {
+        "id": 293,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_09.jpg"
+        }
+    }
+]
