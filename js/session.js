@@ -18,15 +18,15 @@ products_req.onreadystatechange = function () {
                         <p class="card-text">${product.title}</p>
                         
                         <ul class="list-unstyled d-flex justify-content-center mb-1">
-                        <li>
-                            <i class="text-warning fa fa-star"></i>
-                            <i class="text-warning fa fa-star"></i>
-                            <i class="text-warning fa fa-star"></i>
-                            <i class="text-muted fa fa-star"></i>
-                            <i class="text-muted fa fa-star"></i>
-                        </li>
-                    </ul>
-                    <p class="text-center mb-0">$250.00</p>
+                            <li>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-muted fa fa-star"></i>
+                                <i class="text-muted fa fa-star"></i>
+                            </li>
+                        </ul>
+                        <p class="text-center mb-0">$250.00</p>
                     </div>
                 </div>
             </div>`;
@@ -35,6 +35,6 @@ products_req.onreadystatechange = function () {
         }
     }
 };
-products_req.open("GET" , "data/person.json");
+products_req.open("GET" , "../data/persone.json");
 // products_req.open("GET" , "http://api.escuelajs.co/api/v1/products");
 products_req.send();

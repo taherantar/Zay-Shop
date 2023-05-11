@@ -60,6 +60,26 @@
         }
     },
     {
+        "id": 292,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_10.jpg"
+        }
+    },
+    {
+        "id": 292,
+        "title": "M/L/X/XL",
+        "price": 2345,
+        "description": "Oupidatat non",
+        "category": {
+            "id": 1,
+            "image": "./img/shop_11.jpg"
+        }
+    },
+    {
         "id": 293,
         "title": "M/L/X/XL",
         "price": 2345,
