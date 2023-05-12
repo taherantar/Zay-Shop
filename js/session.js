@@ -10,7 +10,7 @@ products_req.onreadystatechange = function () {
         for (let index = 0; index < myResponse.length; index++) {
             const product = myResponse[index];
             myOutput.innerHTML += `
-            <div class="col-4 g-5 d-flex justify-content-center">
+            <div class="col-md-4 g-5 d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <img src="${product.category.image}" class="card-img-top" alt="...">
                     <div class="card-body">
