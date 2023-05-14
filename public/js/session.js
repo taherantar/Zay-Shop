@@ -12,7 +12,7 @@ products_req.onreadystatechange = function () {
             myOutput.innerHTML += `
             <div class="col-md-4 g-5 d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
-                    <img src="${product.category.image}" class="card-img-top" alt="...">
+                    <img src="${product.category.image}" class="card-img-top" alt="${product.description}">
                     <div class="card-body">
                         <h5 class="card-title">${product.description}</h5>
                         <p class="card-text">${product.title}</p>
@@ -30,11 +30,9 @@ products_req.onreadystatechange = function () {
                     </div>
                 </div>
             </div>`;
-
-            console.log(product)
         }
     }
 };
-products_req.open("GET" , "../data/persone.json");
+products_req.open("GET" , "data/persons.json");
 // products_req.open("GET" , "http://api.escuelajs.co/api/v1/products");
 products_req.send();
