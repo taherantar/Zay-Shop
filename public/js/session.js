@@ -1,8 +1,6 @@
 var myOutput = document.getElementById("productsContainer");
 var products_req = new XMLHttpRequest();
-
 var myResponse = [];
-
 products_req.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
         myResponse = JSON.parse(this.response);
@@ -33,6 +31,6 @@ products_req.onreadystatechange = function () {
         }
     }
 };
-products_req.open("GET" , "data/persons.json");
+products_req.open("GET", "data/persons.json");
 // products_req.open("GET" , "http://api.escuelajs.co/api/v1/products");
 products_req.send();

@@ -6,8 +6,11 @@
         "description": "Oupidatat non",
         "category": {
             "id": 1,
-            "image": "./img/shop_01.jpg"
+            "image": "./img/shop_01.jpg",
+            "icon": "fa fa-star",
+            "c": "fa-anchor", "l": "Anchor"
         }
+        
     },
     {
         "id": 292,

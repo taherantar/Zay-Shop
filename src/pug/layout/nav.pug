@@ -1,4 +1,4 @@
-//- -var items = [["home" , "index"], ["about"], ["contact"], ["products"] , ["test"]];
+-var navItems = ["home", "about", "shop", "contact"];
 //- -var itemsAr = [["الرئيسي"] , ["index-ar"], ["عنا"], ["تؤاصل معتا"], ["المنتاحات"], ["اختيار"] ]    
 
 //-     nav       
@@ -41,14 +41,18 @@ nav.navbar.navbar-expand-lg.navbar-light.shadow
     .align-self-center.collapse.navbar-collapse.d-lg-flex.justify-content-lg-between#templatemo_main_nav
       .flex-fill
         ul.nav.navbar-nav.d-flex.justify-content-between.mx-lg-auto
-          li.nav-item
-            a.nav-link(href="index.html") Home
-          li.nav-item
-            a.nav-link(href="about.html") About
-          li.nav-item
-            a.nav-link(href="shop.html") Shop
-          li.nav-item
-            a.nav-link(href="contact.html") Contact
+          each item in navItems 
+              li.nav-item 
+                a.nav-link(href=(item === "home" ? "index.html" : 
+                item + ".html")) #{item.toUpperCase()}
+          //- li.nav-item
+          //-   a.nav-link(href="index.html") Home
+          //- li.nav-item
+          //-   a.nav-link(href="about.html") About
+          //- li.nav-item
+          //-   a.nav-link(href="shop.html") Shop
+          //- li.nav-item
+          //-   a.nav-link(href="contact.html") Contact
       .navbar.align-self-center.d-flex
         .d-lg-none.flex-sm-fill.mt-3.mb-4.col-7.col-sm-auto.pr-3
           .input-group
